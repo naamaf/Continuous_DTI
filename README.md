@@ -35,7 +35,29 @@ Run the script to obtain continuous MD and/or FA calculations.
 Output files will be saved with the specified out_name in the same path.
 Mask can't be provided in this code without editing. We recommend inserting masked data as the initiall data file. 
 
+Example data:
+Example data is provided for both MD and FA usage. Exaple output is provided for the parameters:
+1. Sliding window size = 12; Jump size = 1;
+2. Sliding window size = 20; Jump size = 20;
+
+Example usage:
+mypath = '/path/to/data/';
+out_name = 'output_results';
+sliding_window_size = 20;
+jump_size = 1;
+calculation_type = 'both';
+data_name = 'dwi_data.nii.gz';
+bvecs_name = 'bvecs_file.bvec';
+bvals_name = 'bvals_file.bval';
+DTI_continuous_calculation(mypath, out_name, sliding_window_size, jump_size, calculation_type, data_name, bvecs_name, bvals_name);
+
+
+
+
+
 This code is based on the word that was done at Ido Tavor's lab and is based on the paper:
 
 Please cite this paper when using the code provided here for you own work.
-For any question regarding this repository, please contact: naama.f@gmail.com
+For any question regarding this repository, please contact: naama.f@gmail.co
+
+
