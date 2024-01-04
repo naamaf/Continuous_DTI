@@ -43,7 +43,7 @@ For any question regarding this repository, please contact: naama.f@gmail.com
 - Example data is provided for both MD and FA usage.
 - Example output is provided for the parameters:
   - Sliding window size = 12; Jump size = 1;
-  - Sliding window size = 20; Jump size = 20;
+
 
 ## Example Usage:
 
