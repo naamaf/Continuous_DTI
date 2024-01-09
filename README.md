@@ -42,8 +42,8 @@ For any question regarding this repository, please contact: naama.f@gmail.com
 
 - Example data is provided for both MD and FA usage.
 - Example output is provided for the parameters:
-  - Sliding window size = 12; Jump size = 1;
-
+  - Sliding window size = 10; Jump size = 1;
+This example data is for validation purposes only. We do not recommend using a sliding window of 10 volumes to keep the MD stable. Refer to the cited paper for more details.
 
 ## Example Usage:
 
