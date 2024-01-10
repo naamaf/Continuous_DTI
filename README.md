@@ -5,6 +5,7 @@
 This MATLAB function, `DTI_continuous_calculation`, is designed for calculating a continuous Mean Diffusivity (MD) or Fractional Anisotropy (FA) curve per voxel using a sliding window. It is intended for use with diffusion-weighted imaging (DWI) data after all preprocessing steps.
 
 This code is based on the word that was done at Ido Tavor's lab and is based on the paper:
+Friedman N, Malovani C, Perets I, Kenin E, Bernstein-Eliav M, Tavor I. Continuous structural neuroplasticity during motor learning - a diffusion MRI study. BioRxiv 574830 [Preprint]. January 9, 2024. Available from: https://doi.org/10.1101/2024.01.09.574830
 
 Please cite this paper when using the code provided here for you own work.
 For any question regarding this repository, please contact: naama.f@gmail.com
